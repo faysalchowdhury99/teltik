@@ -1,0 +1,167 @@
+@media screen and (max-width: 991px) {
+  #plan-section {
+    margin-top: -80px;
+  }
+  #features-section {
+    padding: 70px 0;
+  }
+  .features-box {
+    transform: translateY(0) !important;
+    -webkit-transform: translateY(0) !important;
+    -moz-transform: translateY(0) !important;
+    -ms-transform: translateY(0) !important;
+    -o-transform: translateY(0) !important;
+  }
+  .check-your-coverage-main {
+    position: static !important;
+    margin-top: -80px !important;
+  }
+  .coverage-area {
+    width: 300px !important;
+    max-width: 100% !important;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+  }
+  .check-your-coverage-box {
+    transform: translateY(120px);
+    -webkit-transform: translateY(120px);
+    -moz-transform: translateY(120px);
+    -ms-transform: translateY(120px);
+    -o-transform: translateY(120px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 30px !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  #download-section {
+    padding: 70px 0;
+  }
+  #testimonial-section {
+    padding: 0 0 70px 0;
+  }
+}
+
+/* Font Size From 1600px+ */
+@media screen and (min-width: 1600px) {
+  .other-review a img {
+    width: 22px !important;
+  }
+  .nav-link,
+  .top-bar p,
+  .top-bar span,
+  .top-bar a {
+    font-size: 16px !important;
+  }
+  p,
+  a,
+  button,
+  .other-review a span,
+  .check-your-coverage-box input,
+  .check-your-coverage-box button,
+  .check-your-coverage-box i,
+  .footer-links p a {
+    font-size: 22px !important;
+  }
+  #hero-section .middle h1 {
+    font-size: 65px;
+  }
+  #hero-section .middle p,
+  .other-review h5 {
+    font-size: 26px !important;
+  }
+  .after-heading,
+  .client-name,
+  .footer-widget h4,
+  h4 {
+    font-size: 30px !important;
+  }
+  .device-card h3,
+  .how-it-works-box h4,
+  h3 {
+    font-size: 35px !important;
+  }
+  .heading {
+    font-size: 56px;
+  }
+  .card-features h5,
+  .card-price h5 {
+    font-size: 25px !important;
+  }
+  .device-card p {
+    font-size: 22px !important;
+  }
+  .card-features .media i,
+  .features-list .media i {
+    padding: 7px;
+    font-size: 13px;
+  }
+  .card-price .dollar {
+    font-size: 80px !important;
+  }
+  .check-your-coverage-box h5 {
+    font-size: 25px;
+  }
+  .card-price a {
+    font-size: 18px !important;
+  }
+  .footer-widget h4 {
+    font-size: 20px !important;
+  }
+  .footer-links p a,
+  .footer-copyright p {
+    font-size: 18px !important;
+  }
+  .social-links a I {
+    font-size: 15px !important;
+  }
+}
+
+/* Container && Hero Path Responsive */
+@media screen and (min-width: 1400px) {
+  .hero-path img {
+    width: 530px;
+    margin-left: 250px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1500px !important;
+  }
+  .hero-path img {
+    width: 630px;
+    margin-left: 250px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .container {
+    max-width: 1680px !important;
+  }
+  .hero-path img {
+    width: 700px;
+    margin-left: 250px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .container {
+    max-width: 1880px !important;
+  }
+  .hero-path img {
+    width: 780px;
+    margin-left: 250px;
+  }
+}
+/* Navbar Container && nation Wide Container */
+@media screen and (min-width: 1200px) {
+  .navbar-container,
+  .nation-wide-container {
+    max-width: 1140px !important;
+  }
+}
